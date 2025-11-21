@@ -64,18 +64,51 @@ Google Sheets — Update row with call outcome
 
 ---
 
-## 📸 Screenshots
+## 📸 Workflow Screenshots (Step-by-Step)
 
-Screenshots are stored in the `assets/` folder.
+### 1️⃣ Full Workflow View
+![Workflow Overview](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image1.png)
 
-> After you know the exact file names, embed them like this:
+### 2️⃣ Workflow — All Nodes Executing Together
+![Workflow Running](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image2.png)
 
-```md
-![Trigger Node](assets/trigger.png)
-![Filter Node](assets/filter.png)
-![HTTP API Call](assets/http.png)
-![Update Row](assets/update_row.png)
-```
+---
+
+## 🧩 Node-by-Node Breakdown
+
+### 3️⃣ Inbound Leads Sheet — Source Data
+![Inbound Leads Sheet](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image3.png)
+
+### 4️⃣ Google Sheets Trigger (Node 1)
+![Google Sheets Trigger](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image4.png)
+
+### 5️⃣ Inside Google Sheets Trigger — Lead Detection
+![Inside Trigger](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image5.png)
+
+---
+
+### 6️⃣ Filter Node (Node 2)
+![Filter Node](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image6.png)
+
+### 7️⃣ Inside Filter Node — Validation Logic
+![Inside Filter Node](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image7.png)
+
+---
+
+### 8️⃣ Edit Fields / Set Node (Node 3)
+![Set Node](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image8.png)
+
+### 9️⃣ HTTP Request Node (Node 4)
+![HTTP Node](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image9.png)
+
+### 🔟 Inside HTTP Request — Payload Body / Response Handling
+![Inside HTTP](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image10.png)
+
+---
+
+### 1️⃣1️⃣ Google Sheets – Update Row (Node 5)
+![Update Row](https://raw.githubusercontent.com/KritikaK21/AI-Voice-Calling-Agent/main/assets/image11.png)
+
 ---
 
 ## 📍 Results
@@ -99,16 +132,10 @@ Screenshots are stored in the `assets/` folder.
 
 ## 👩‍💻 Author
 
-Kritika Aggarwal
-📧 Email: kritikaaggarwal2227@gmail.com
-🔗 Portfolio: (to be added when updated)
+- Kritika Aggarwal
+- 📧 Email: kritikaaggarwal2227@gmail.com
+- 🔗 Portfolio: (to be added when updated)
 
 ---
 
-### 📌 After adding the README
-Next step: insert screenshot links once they appear in the `assets` folder.
-
-Whenever you upload all screenshots, tell me the **exact file names**, and I’ll generate the **correct Markdown display code** so the images appear perfectly inside the README.
-
-Ready for the next step 🚀
 
